@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var b = UIBarButtonItem(title: "Filters",
             style: UIBarButtonItemStyle.Bordered,
             target: self,
-            action:nil /*Selector("goFilter")*/)
+            action: Selector("goFilter"))
         self.navigationItem.leftBarButtonItem = b
         
         // setup navigation bar to be translucent
@@ -52,6 +52,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //        self.edgesForExtendedLayout = UIRectEdge.All
         //        self.extendedLayoutIncludesOpaqueBars = true
+    }
+    
+    func goFilter() {
+        NSLog("goFilter: ")
+        let vc = FilterViewController()
+        self.navigationController?.pushViewController(vc, animated: true )
     }
     
     override func viewDidLoad() {
@@ -102,7 +108,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func getSearchParameters() -> Dictionary<String, String> {
         // fill in location
-        var params = [ "location" : "San+Francisco" ]
+        var params = [ "location" : "Seattle" ]
 
         /* fill in other search/filter params
         for (key, value) in ... {

@@ -17,6 +17,7 @@
 		E2514CF219DD3815000B9499 /* YelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2514CF119DD3815000B9499 /* YelpCell.swift */; };
 		E2514CF419E0D6A4000B9499 /* YelpBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2514CF319E0D6A4000B9499 /* YelpBusiness.swift */; };
 		E259B9DC19DD061D0011DC6F /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259B9DB19DD061D0011DC6F /* YelpClient.swift */; };
+		E2BE5F5A19E103BF00026410 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BE5F5919E103BF00026410 /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		E2514CF319E0D6A4000B9499 /* YelpBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpBusiness.swift; sourceTree = "<group>"; };
 		E259B9D819DBF48A0011DC6F /* yelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yelp-Bridging-Header.h"; sourceTree = "<group>"; };
 		E259B9DB19DD061D0011DC6F /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		E2BE5F5919E103BF00026410 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E21FEC2719DBF1F000F41942 /* ViewController.swift */,
 				E259B9DB19DD061D0011DC6F /* YelpClient.swift */,
 				E21FEC2919DBF1F000F41942 /* Main.storyboard */,
+				E2BE5F5919E103BF00026410 /* FilterViewController.swift */,
 				E2514CF119DD3815000B9499 /* YelpCell.swift */,
 				E2514CF319E0D6A4000B9499 /* YelpBusiness.swift */,
 				E21FEC2C19DBF1F100F41942 /* Images.xcassets */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BE5F5A19E103BF00026410 /* FilterViewController.swift in Sources */,
 				E21FEC2819DBF1F000F41942 /* ViewController.swift in Sources */,
 				E259B9DC19DD061D0011DC6F /* YelpClient.swift in Sources */,
 				E2514CF419E0D6A4000B9499 /* YelpBusiness.swift in Sources */,

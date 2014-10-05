@@ -41,6 +41,7 @@ class YelpClient: BDBOAuth1RequestOperationManager {
         for (key, value) in parameters! {
             params.setValue(value, forKey: key)
         }
+        NSLog("params: \(params)")
             
         // pass in params, success, failure;   success & failure are closures that are passed through
         return self.GET("search", parameters: params, success: success, failure: failure)
